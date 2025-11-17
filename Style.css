@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg, hsla(194, 100%, 30%, 0.494), #00286e67);
+  background-image: url("images/bg1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.Top_Header {
+  background: linear-gradient(90deg, #00a6ac00, #00a6ac0e, #00a6ac2d, #0069a7, #00a6ac34, #00a6ac0c,#00a6ac00);
+  color: #fff;
+  font-size: 1.2em;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.container_1 {
+  display: flex;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+  max-width: 1200px;
+  margin: 20px auto;
+  background: #000f25e5;
+  border-radius: 36px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  overflow: hidden;
+}
+
+.Profile_Card{
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profile_Name{
+  font-size: 3em;
+  font-weight: bold;
+  color: #14dcff;
+}
+
+.profile_email{
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.profile_subtitle {
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #81a8f0;
+}
+
+.profile-desc {
+  font-size: 1.1em;
+  color: #ffffff;
+  margin-bottom: 30px;
+  padding-bottom: 20px;
+}
+
+.about-btn {
+  background: #b48b7c;
+  color: #fff;
+  border: none;
+  padding: 14px 32px;
+  font-size: 1em;
+  border-radius: 8px;
+  cursor: pointer;
+  width: fit-content;
+  margin-bottom: 40px;
+  transition: background 0.2s;
+}
+
+.about-btn:hover {
+  background: #a07a6b;
+}
+
+.Socials {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 24px;
+}
+
+.profile-img img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #00c0e2;
+  box-shadow: 0 17px 15px rgba(0,0,0,0.5);
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social_icon {
+  width: 32px;
+  height: 32px;
+  filter: brightness(0) invert(1); 
+  transition: transform 0.2s, filter 0.2s;
+}
+
+.social_icon:hover {
+  transform: scale(1.1);
+  filter: brightness(0) invert(0.7);
+}
+  
+  .left, .right {
+    padding: 30px 20px;
+  }
+  
+  .profile_img{
+    width: 200px;
+    height: 200px;
+  }
